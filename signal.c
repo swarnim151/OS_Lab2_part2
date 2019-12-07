@@ -20,3 +20,5 @@ int main(int argc, char * argv[])
     sleep(1);
     printf("Turing was right!\n");
 }
+  return 0; //never reached
+}
