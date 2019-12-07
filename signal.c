@@ -5,12 +5,6 @@
 #include <unistd.h>
 #include "timer.h"
 
-int total_alarms = 0;
-
-void increment_alarm() {
-  total_alarms += 1;
-}
-
 void handler(int signum)
 { //signal handler
   printf("Hello World!\n");
